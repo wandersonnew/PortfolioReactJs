@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -48,7 +49,7 @@ export default function Index() {
                                 </Button>
                             </div>
                         </ListGroup.Item>
-                        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+                        {/* <ListGroup.Item>Vestibulum at eros</ListGroup.Item> */}
                     </ListGroup>
                     <Card.Body>
                         <div className="d-grid gap-2">
@@ -57,9 +58,15 @@ export default function Index() {
                                 wanderson-duarte-alves-810325177
                             </Card.Link>
                         </div>
-                        <div className="d-grid gap-2">
+                        {/* <div className="d-grid gap-2">
                             <Card.Link href="#">
                             </Card.Link>
+                        </div> */}
+
+                        <hr />
+
+                        <div className="d-grid gap-2">
+                            <Link to="/mensagem">Enviar Mensagem</Link>
                         </div>
                     </Card.Body>
                 </Card>

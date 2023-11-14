@@ -11,7 +11,7 @@ export default function Sobre() {
                     <Card.Text>
                         <p>Desenvolvedor Web Full Stack com mais de 2 (dois) anos de experiência.</p>
 
-                        
+                            
                     </Card.Text>    
                 </Card.Body>
                 <Card.Footer className="text-muted">2 days ago</Card.Footer>
